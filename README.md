@@ -1,8 +1,8 @@
-# 2022 TREC NeuCLIR tarck
+# 2022 TREC NeuCLIR Track
 
-Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluations forums for more than twenty years, but recent advances in the application of deep learning to information retrieval (IR) warrant a new, large scale effort that will enable exploration of classical and modern IR techniques for this task.
+Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluation forums for more than twenty years, but recent advances in the application of deep learning to information retrieval (IR) warrant a new, large-scale effort that will enable exploration of classical and modern IR techniques for this task.
 
-This website contains information about the upcoming NeuCLIR track at TREC 2022. We encourage submissions of systems that will help answering the following research questions:
+This Website contains information about the upcoming NeuCLIR track at TREC 2022. We encourage submissions of systems that will help answering the following research questions:
 
 - What are the best neural CLIR approaches?
 - How does neural CLIR compare to the combination of machine translation and monolingual IR?
@@ -15,7 +15,7 @@ In its first year, NeuCLIR will focus on three languages: **Chinese**, **Persian
 
 ## Task Description
 
-The main task for the proposed track is ad hoc cross-language retrieval. Documents will be drawn from Common Crawl newswire, and will be written in Chinese, Russian, and Persian. Topics will be in English, and will be expressed in traditional TREC title/description/narrative form. Retrieved documents will be graded as highly relevant, somewhat relevant, and not relevant; we expect to use several metrics to evaluate runs, incluiding nDCG@100 and ERR.
+The main task for the proposed track is ad hoc cross-language retrieval. Documents will be drawn from Common Crawl newswire, and will be written in Chinese, Russian, and Persian. Topics will be in English, and will be expressed in traditional TREC title/description/narrative form. Retrieved documents will be graded as highly relevant, somewhat relevant, and not relevant; we expect to use several metrics to evaluate runs, includiing nDCG@100 and ERR.
 
 The development and test data created for [SCALE 2021](https://hltcoe.jhu.edu/research/scale/scale-2021/) (60 topics in Chinese and Persian, 40 topics in Russian) will soon be available to the track as development data with relevance judgments. Further, participants are welcome to use any related cross-language and non-English monolingual datasets have been made available (e.g., [CLIRMatrix](https://aclanthology.org/2020.emnlp-main.340/), [MLWIKIR](https://github.com/getalp/wikIR), and others). In addition, the SCALE 2021 effort produced translations of [MS MARCO](https://microsoft.github.io/msmarco/) into Chinese, Russian, and Persian. These translations should be freely redistributable.
 
