@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+
+// /* unvisited link */
+// a {
+//   color: #f36524;
+//   text-decoration: underline;
+// }
+
+/* mouse over link */
+a:hover {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+p.view {
+  visibility: hidden;
+}
