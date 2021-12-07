@@ -1,5 +1,11 @@
 # 2022 TREC NeuCLIR Track
 
+<div id='mailing-list-banner'>
+    <div id='inner-banner'>
+Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!
+    </div>
+</div>
+
 Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluation forums for more than twenty years, but recent advances in the application of deep learning to information retrieval (IR) warrant a new, large-scale effort that will enable exploration of classical and modern IR techniques for this task.
 
 This Website contains information about the upcoming NeuCLIR track at TREC 2022. We encourage submissions of systems that will help answering the following research questions:
