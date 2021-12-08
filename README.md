@@ -2,7 +2,12 @@
 
 <div id='mailing-list-banner'>
     <div id='inner-banner'>
-Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!
+    <h3 id='mailing-list-title'>Announcements</h3>
+    <ul id='mailing-list-items'>
+    <li>We are hosting two information sessions for potential partecipants! Join us on <b>Dec 14th at 9am EST</b> (<a href='https://dateful.com/eventlink/1346891686'>convert to your time zone</a>) or <b>9pm EST</b> (<a href='https://dateful.com/eventlink/2344208524'>convert to your time zone</a>). Please email the organizers at <a href='mailto:neuclir-organizers@googlegroups.com'>neuclir-organizers@googlegroups.com</a> to receive a Zoom meeting ID.</li>
+    <div style='margin-bottom: .5em'></div>
+    <li>Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
+    </ul>
     </div>
 </div>
 
