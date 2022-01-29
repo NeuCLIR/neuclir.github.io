@@ -11,11 +11,36 @@
 //   text-decoration: underline;
 // }
 
+body {
+  text-align: justify;
+}
+
+li {
+  text-align: left;
+}
+
+a {
+  color: #6D8EF7;
+}
+
+code {
+  font-size: .8em;
+}
+
+
 /* mouse over link */
 a:hover {
+  color: #CA3B7D;
   font-style: normal;
   font-weight: normal;
   text-decoration: underline;
+}
+
+h1 {
+    a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
 
 p.view {
@@ -29,9 +54,9 @@ body {
 
 div#mailing-list-banner {
   border-radius: .5em;
-  color: #876600;
-  border: 2px solid #876600;
-  background: #fff082;
+  color: #AB7003;
+  border: 2px solid #AB7003;
+  background: #FEF7EC;
   padding: 1em;
   width: 90%;
   // height: 150px
@@ -42,5 +67,14 @@ div#mailing-list-banner {
 
 #mailing-list-title, #mailing-list-items{
       margin-bottom: .4em;
-      color: #876600;
+      color: #AB7003;
+}
+
+div#past {
+  color: #cccccc;
+
+}
+
+footer {
+  visibility: hidden;
 }
