@@ -45,7 +45,7 @@ We aim for NeuCLIR to be the first carbon-neutral track at TREC; therefore, we s
 
 ## Resources
 
-- **Overview** of the task: <a href='https://docs.google.com/presentation/d/1hMK1rsOamPaHtfnXuLljXb0FOW4HV4xxr-sOmoyD5UI/' title='link to Google slides'>Google Slides <i aria-hidden="true" class="fas fa-link"></i></a>;  <a href='https://docs.google.com/presentation/d/1hMK1rsOamPaHtfnXuLljXb0FOW4HV4xxr-sOmoyD5UI/' title='link to PDF version of the slides'>PDF version <i aria-hidden="true" class="fas fa-file-pdf"></i></a>.
+- **Overview** of the task: <a href='https://docs.google.com/presentation/d/1hMK1rsOamPaHtfnXuLljXb0FOW4HV4xxr-sOmoyD5UI/' title='link to Google slides'>Google Slides <i aria-hidden="true" class="fas fa-link"></i></a>;  <a href='/assets/pdf/neuclir-trec.pdf' title='link to PDF version of the slides'>PDF version <i aria-hidden="true" class="fas fa-file-pdf"></i></a>.
 - **HC4**, a collection to train models for NeuCLIR submissions: <a href='https://github.com/hltcoe/HC4' title='link to github repository'>Code <i aria-hidden="true" class="fab fa-github"></i></a>;  <a href='https://arxiv.org/abs/2201.09992' title='link to arXiv paper detailing the HC4'>Paper (ECIR '22) <i aria-hidden="true" class="fas fa-file-alt"></i></a>
 - **Patapsco**, a pipeline to run CLIR expirements: <br/> <a href='https://github.com/hltcoe/patapsco' title='link to github repository'>Code <i aria-hidden="true" class="fab fa-github"></i></a>;  <a href='https://arxiv.org/abs/2201.09996' title='link to arXiv paper detailing the HC4'>Paper (ECIR '22) <i aria-hidden="true" class="fas fa-file-alt"></i></a>
 
