@@ -67,13 +67,13 @@ While the exact timeline is **not finalized** yet, here's an **approximate** sch
 
 ## Organizers
 
-- [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/), Human Language Technology Center of Excellence, Johns Hopkins University
+- [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/), Johns Hopkins University, HLTCOE
 - [Sean MacAvaney](https://macavaney.us/), University of Glasgow
-- [James Mayfield](https://hltcoe.jhu.edu/researcher/james-mayfield/), Human Language Technology Center of Excellence, Johns Hopkins University
-- [Paul McNamee](https://pmcnamee.net/), Human Language Technology Center of Excellence, Johns Hopkins University
+- [James Mayfield](https://hltcoe.jhu.edu/researcher/james-mayfield/), Johns Hopkins University, HLTCOE
+- [Paul McNamee](https://pmcnamee.net/), Johns Hopkins University, HLTCOE
 - [Douglas W. Oard](https://ischool.umd.edu/about/directory/douglas-w-oard), University of Maryland
-- [Luca Soldaini](https://soldaini.net), Amazon Alexa AI
-- [Eugene Yang](https://www.eugene.zone/), Human Language Technology Center of Excellence, Johns Hopkins University
+- [Luca Soldaini](https://soldaini.net), Allen Institute for AI
+- [Eugene Yang](https://www.eugene.zone/), Johns Hopkins University, HLTCOE
 
 ## Contact
 
