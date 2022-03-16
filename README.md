@@ -4,66 +4,294 @@
     <div id='inner-banner'>
     <h3 id='mailing-list-title'>Announcements</h3>
     <ul id='mailing-list-items'>
+    <li>Track guidelines released! Keep reading this page to learn more.</li>
     <!-- <li>We are hosting two information sessions for potential partecipants! Join us on <b>Dec 14th at 9am EST</b> (<a href='https://dateful.com/eventlink/1346891686'>convert to your time zone</a>) or <b>9pm EST</b> (<a href='https://dateful.com/eventlink/2344208524'>convert to your time zone</a>). Please email the organizers at <a href='mailto:neuclir-organizers@googlegroups.com'>neuclir-organizers@googlegroups.com</a> to receive a Zoom meeting ID.</li>
     <div style='margin-bottom: .5em'></div> -->
-    <li>Check the <a href='#resources'>resources</a> section to access the data collection and retrieval baselines.</li>
+    <!-- <li>Check the <a href='#resources'>resources</a> section to access the data collection and retrieval baselines.</li> -->
     <li>Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
     </ul>
     </div>
 </div>
 
-Cross-language Information Retrieval (CLIR) has been studied, but recent advances in deep learning methods for information retrieval warrant a new, large-scale effort to explore the effectiveness classical and modern IR techniques.
+Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluations for more than twenty years.
+Prior to the application of deep learning, strong statistical approaches were developed that work well across many languages.
+As with most other language technologies though, neural computing has led to significant performance improvements in information retrieval.
+CLIR has just begun to incorporate neural advances.
 
-This Website contains information about the upcoming NeuCLIR track at TREC 2022. We encourage submissions of systems that will help answering the following research questions:
+The TREC 2022 NeuCLIR track presents a cross-language information retrieval challenge.
+NeuCLIR topics are written in English.
+NeuCLIR has three target language collections in **Chinese**, **Persian**, and **Russian**.
+Topics are written in the traditional TREC format: a short title and a sentence-length description.
+Systems are to return a ranked list of documents for each topic.
+Results will be pooled, and systems will be evaluated on a range of metrics.
 
-- What are the best neural CLIR approaches?
-- How does neural CLIR compare to the combination of machine translation and monolingual IR?
-- How does it compare to the strongest statistical approaches to CLIR?
-- How do the resource requirements for the various approaches compare?
-- Can separate ranking and re-ranking phases improve performance over a single-phase approach?
-- What resources are most useful for training CLIR systems?
+#### Jump to:
 
-In its first year, NeuCLIR will focus on three languages: **Chinese**, **Persian**, and **Russian**.
+- [Tasks](#tasks)
+- [Data Formats](#data-formats)
+- [Data](#data)
+- [Additional Resources](#additional-resources)
+- [Software](#software)
+- [Submission Information](#submission-information)
+- [Assessment & Scoring](#assessment--scoring)
+- [Carbon Neutrality](#carbon-neutrality)
+- [Registration](#registration)
+- [Important Dates](#important-dates)
+- [Organizers](#organizers)
+
 
 -------
 
-## Getting Started
+## Tasks
 
-### Task Description
+### Ad Hoc CLIR Task
 
-The main task for the proposed track is ad-hoc cross-language retrieval. Documents will be drawn from Common Crawl newswire, and will be written in Chinese, Russian, and Persian. Topics will be in English, and will be expressed in traditional TREC title/description/narrative form. Retrieved documents will be graded as highly relevant, somewhat relevant, and not relevant; we expect to use several metrics to evaluate runs, including nDCG@100 and ERR.
+The main task in the NeuCLIR track is ad hoc cross-language information retrieval.
+Systems will receive a document collection in Chinese, Persian, or Russian, and a set of English topics.
+For each topic, the system will return a ranked list of 1000 documents drawn from the document collection, ordered by likelihood of relevance to the topic.
 
-### Example Notebooks
+### Reranking CLIR Task
 
-*We are planning to release example runs as Jupyter notebooks! Subscribe to the [participants' mailing list](https://groups.google.com/g/neuclir-participants) to be notified when they are released.*
+The reranking task is an extension of the ad hoc task.
+In addition to a document collection and a set of topics, systems also receive as input for each topic a ranked list of 1000 documents drawn from the document collection.
+Each ranked list is the output of a retrieval system operating on the ad hoc task.
+Reranking task results must be drawn only from the documents that appear in these lists.
+In all other ways, the reranking task is identical to the ad hoc task. We will release runs for reranking for the HC4 training topics.
 
-### Carbon Neutral Submissions
+### Monolingual Retrieval Task
 
-We aim for NeuCLIR to be the first carbon-neutral track at TREC; therefore, we strongly encourage all participants to track carbon emissions associated with their submission, and, if they are able to, buy carbon offsets to minimize the impact of their submissions. For details, please visit [this page](/carbon-tracking.html).
+While monolingual retrieval is not a focus of the NeuCLIR track, monolingual runs can improve assessment pools, and serve as good points of reference for cross-language runs.
+The monolingual retrieval task is identical to the ad hoc task, but uses topic files that are human translations of the English topics into the target language in a way that would be expressed by speakers of the language.
 
-<!-- The development and test data created for [SCALE 2021](https://hltcoe.jhu.edu/research/scale/scale-2021/) (60 topics in Chinese and Persian, 40 topics in Russian) will soon be available to the track as development data with relevance judgments. Further, participants are welcome to use any related cross-language and non-English monolingual datasets have been made available (e.g., [CLIRMatrix](https://aclanthology.org/2020.emnlp-main.340/), [MLWIKIR](https://github.com/getalp/wikIR), and others). In addition, the SCALE 2021 effort produced translations of [MS MARCO](https://microsoft.github.io/msmarco/) into Chinese, Russian, and Persian. These translations should be freely redistributable. -->
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
-## Resources
+-------
 
-- **Overview** of the task: <a href='https://docs.google.com/presentation/d/1hMK1rsOamPaHtfnXuLljXb0FOW4HV4xxr-sOmoyD5UI/' title='link to Google slides'>Google Slides <i aria-hidden="true" class="fas fa-link"></i></a>;  <a href='/assets/pdf/neuclir-trec.pdf' title='link to PDF version of the slides'>PDF version <i aria-hidden="true" class="fas fa-file-pdf"></i></a>.
-- **HC4**, a collection to train models for NeuCLIR submissions: <a href='https://github.com/hltcoe/HC4' title='link to github repository'>Code <i aria-hidden="true" class="fab fa-github"></i></a>;  <a href='https://arxiv.org/abs/2201.09992' title='link to arXiv paper detailing the HC4'>Paper (ECIR '22) <i aria-hidden="true" class="fas fa-file-alt"></i></a>
-- **Patapsco**, a pipeline to run CLIR expirements: <br/> <a href='https://github.com/hltcoe/patapsco' title='link to github repository'>Code <i aria-hidden="true" class="fab fa-github"></i></a>;  <a href='https://arxiv.org/abs/2201.09996' title='link to arXiv paper detailing the HC4'>Paper (ECIR '22) <i aria-hidden="true" class="fas fa-file-alt"></i></a>
+## Data Formats
+
+### Documents
+
+Documents are distributed in JSONL format, with one document in JSON format on each line. The fields present for each document are:
+
+- `id` (string): The document ID for the document
+- `text` (string): Complete text of the document
+- `date` (string): YYYY-MM-DD or empty string
+- `Lang` (string): [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)
+
+Participating teams can get a copy of the processed corpora directly from NIST.
+Alternatively, anybody can replicate the corpora by downloading them from the Common Crawl using [provided scripts](https://github.com/NeuCLIR/download-collection) (this takes longer than downloading from NIST).
+
+### Ranked Results (Submissions and Reranking Inputs)
+
+NeuCLIR will use the standard TREC ad hoc submission format for submissions and for ranked lists that serve as input to the reranking task.
+Each set of ranked results for a set of topics appears in a single file.
+Each line of this file contains six whitespace-separated entries:
+
+1. Topic (query) number
+2. The fixed string `Q0`
+3. Document ID
+4. Rank
+5. Score (integer or float)
+6. Run ID
+
+Field 1 is the topic ID taken from the topics file.
+Entries for each topic must be contiguous in a ranked results file.
+Field 3 is the document ID, taken from the document collection.
+The scores in Field 5 must appear in non-increasing order within a given topic.
+In reranking input files, these values will be non-increasing, but will otherwise not be meaningful.
+Field 6 is the run ID, generated by the submitter (the first characters of the run ID must be the name of the submitting team).
+Fields 2 and 4 are ignored, although they must be present.
+Here is a portion of a sample ranked results file:
+
+```txt
+1 Q0 pid1    1 2.73 team1-run1
+1 Q0 pid2    2 2.71 team1-run1
+1 Q0 pid3    3 2.61 team1-run1
+1 Q0 pid4    4 2.05 team1-run1
+1 Q0 pid5    5 1.89 team1-run1
+```
+
+Up to 1,000 results per query will be accepted.
+Runs containing queries with more than 1,000 results will be rejected.
+
+### QRELS
+
+Relevance judgments are in standard TREC QRELS format.
+Each line of the QRELS file will contain four whitespace-separated entries:
+
+1. A topic ID
+2. The string `0` (zero)
+3. A document ID
+4. A relevance judgment drawn from the following set:
+  - `3`: document is fully relevant to the topic (i.e., it contains facts that would be included in lead paragraph of a report on the topic)
+  - `1`: document is somewhat relevant to topic (i.e., it contains facts that would be included elsewhere in a report on the topic)
+  - `0`: document is not relevant to topic (i.e., it does not contain information that would be included in a report written about the topic)
+
+See the [assessment section](#assessment) below for further explanation of these relevance levels.
+Qrels files will be distributed with development data but not evaluation data.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+--------
+
+## Data
+
+### Development Data
+
+Development data, called [HC4](https://github.com/hltcoe/HC4), include document sets of about 5 million Russian documents and ½ million each of Chinese and Persian documents.
+There are 60 development topics each in Chinese and Persian, and 54 development topics in Russian.
+Many of the HC4 documents are in NeuCLIR1.
+You will be able to score the development topics against  the NeuCLIR1 collection if you intersect the two document sets, throw away retrieved documents not in HC4 and filter the qrels for documents in NeuCLIR1.
+HC4 is available from the [<span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>](https://github.com/allenai/ir_datasets) package under [hc4](https://ir-datasets.com/master/hc4.html).
+
+### Evaluation Data
+
+The document collections will be drawn from the Common Crawl News Collection, spanning a five year time window from August 2016 to July 2021.
+Very short and very long documents were filtered.
+Russian was randomly sampled to have 5 million documents pre-deduplication.
+Automatic deduplication removes duplicate documents.
+There are 4 ½  million Russian, 3 million Chinese, and 2 million Persian documents.
+Evaluation topics will be released in June 2022.
+
+The download script for the collection is currently available in the ​​[<span class='repo'><i aria-hidden="true" class="fab fa-github right-margin"></i>NeuCLIR/download-collection</span>](https://github.com/NeuCLIR/download-collection) repository.
+A gzipped version of the collection is available [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EZ3YNnFccslJi3aq94cUMVkB6tLVZxyLSeOkk46vGqqcOg?e=uk4oZN) (password will be available on the TREC website).
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+--------
+
+## Additional Resources
+
+- **Multiple languages**
+  - *mMARCO*: Translations, using OPUS-MT and Google Translate, of MS MARCO into many languages (but not Persian):
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco]((https://ir-datasets.com/master/mmarco.html))
+    - On HuggingFace: [unicamp-dl/mmarco](https://huggingface.co/datasets/unicamp-dl/mmarco)
+  - *neuMARCO*: Translations of MS MARCO via a sockeye translation system
+    - Download link [neuMSMARCO.tar.gz](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EQcICtPaSqFNoCZHtoeZszoB7FC362BvaPvieUSk2j30tA?e=btrSaB)
+  - *WikiCLIR*: Multilingual CLIR collection, including Chinese and Russian
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [wikiclir](https://ir-datasets.com/master/wikiclir.html)
+  - *CLIRMatrix*: Another multi-lingual CLIR collection, including Chinese, Russian, and Persian.
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [clirmatrix](https://ir-datasets.com/clirmatrix.html)
+  - Example [code](https://github.com/allenai/ir_datasets/blob/master/examples/clirmatrix_example.py)
+- **Chinese**
+  - *mMARCO Chinese v1* (OPUS MT)
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco/zh](https://ir-datasets.com/master/mmarco.html#mmarco/zh)
+  - *mMARCO Chinese v2* (Google Translate)
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco/v2/zh](https://ir-datasets.com/master/mmarco.html#mmarco/v2/zh)
+  - *neuMARCO Chinese*
+    - Download link: [neuMSMARCO.tar.gz](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EQcICtPaSqFNoCZHtoeZszoB7FC362BvaPvieUSk2j30tA?e=btrSaB)
+- **Persian**
+  - *neuMARCO Persian*
+    - Download link: [neuMSMARCO.tar.gz](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EQcICtPaSqFNoCZHtoeZszoB7FC362BvaPvieUSk2j30tA?e=btrSaB)
+- **Russian**
+  - *mMARCO Russian v1* (Opus MT)
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco/ru](https://ir-datasets.com/master/mmarco.html#mmarco/ru)
+  - *mMARCO Russian v2* (Google Translate)
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco/v2/ru](https://ir-datasets.com/master/mmarco.html#mmarco/v2/ru)
+  - *neuMARCO Russian*
+    - Download link: [neuMSMARCO.tar.gz](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EQcICtPaSqFNoCZHtoeZszoB7FC362BvaPvieUSk2j30tA?e=btrSaB)
+  - *Mr. TyDi*: Monolingual retrieval in several languages, including Russian
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mr-tydi](https://ir-datasets.com/master/mr-tydi.html)
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-----------
+
+## Software
+
+### Patapsco
+Patapsco is a CLIR framework that makes it easy to get started with CLIR. An overview of Patapsco’s capabilities can be found in [this paper](https://arxiv.org/abs/2201.09996), and the code is available from the [<span class='repo'><i aria-hidden="true" class="fab fa-github right-margin"></i>hltcoe/patapsco</span>](https://github.com/hltcoe/patapsco) repository.  A Jupyter notebook that steps through basic Patapsco usage is available [here](https://github.com/hltcoe/patapsco/blob/master/samples/notebooks/demo-ecir.ipynb).
+
+### Chinese Character Mapping
+The Chinese NeuCLIR collection includes both traditional and simplified characters. For those who would like to deal with only one Chinese character set, a script to convert traditional to simplified characters is available in the [<span class='repo'><i aria-hidden="true" class="fab fa-github right-margin"></i>NeuCLIR/download-collection</span>](https://github.com/NeuCLIR/download-collection) repository. Users should bear in mind that the transliteration from traditional to simplified characters is imperfect, and there is no guarantee that the resulting text accurately captures the meaning of the text in the original traditional characters.
+
+### Validator
+
+A validator for track submissions will be posted to the Active Participants area on [trec.nist.gov](https://trec.nist.gov).
+
+## <span class='ir-datasets'><i aria-hidden="true" class="fa fa-flask right-margin"></i>ir-measures</span>
+
+Submissions will be evaluated using [<span class='ir-datasets'><i aria-hidden="true" class="fa fa-flask right-margin"></i>ir-measures</span>](https://ir-measur.es/en/latest/). The software uses the official trec_eval implementation for measures that [trec_eval](https://github.com/usnistgov/trec_eval) (nDCG, MAP, etc.), and delegates computation of measures unsupported by trec_eval to alternative implementations (e.g., Rank Biased Precision uses [cwl_eval](https://github.com/ireval/cwl)). Evaluation will be conducted using the following command:
+
+```bash
+ir_measures qrels_file run_file \
+    'nDCG@20 MAP RBP(rel=1) R@100 R@1000'
+```
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-------
+
+## Submission
+
+Runs will be submitted through the NIST submission system at [trec.nist.gov/act_part/act_part.html](https://trec.nist.gov/act_part/act_part.html>). Runs that do not pass validation will be rejected outright.
+Submitted runs will be asked to specify (a) single-stage or multi-stage (i.e., ranking or reranking); (b) neural, statistical, or a combination; and (c) manual or automatic.
+
+### Automatic Runs
+
+Each run submission must indicate whether the run is manual or automatic. An automatic run is any run that receives no human intervention once the system is started and provided with the task inputs. We expect most NeuCLIR runs to be automatic runs. Note that using the provided human and machine translations without further human intervention count as automatic runs. Runs that use the provided human translations (i.e., the monolingual task) will be reported separately from cross-language runs.
+
+
+### Manual Runs
+
+Results on manual runs will be specifically identified when results are reported.  A manual run is any run in which changes are made to the queries, the system, or the system’s results after the topics have been seen.  This includes, for example, manually creating queries from the topic description, or based on manual examination of retrieval results. or implementing new automated processing capabilities such as stop structure removal that are created after the topics have been seen. Simple bug fixes that address only format handling do not result in manual runs, but the changes should be described.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-------
+
+## Assessment & Scoring
+
+Relevance assessments for each topic will be made by a single person, who would optimally be the person who created the topic.
+
+Scoring will be performed by [<span class='ir-datasets'><i aria-hidden="true" class="fa fa-flask right-margin"></i>ir-measures</span>](https://ir-measur.es/en/latest/). The main reported measure will be:
+
+- Normalized Discounted Cumulative Gain at 20 (nDCG@20). Weights for the three levels of relevance are:
+  - Not relevant: 0
+  - Somewhat relevant: 1
+  - Highly relevant: 3
+- Additional evaluation measures include MAP, RBP, Recall@100, and Recall@1000.
+
+We also solicit self-reported mean response time per query and the total number of model parameters for each run. This will allow us to analyze the efficiency of various approaches. We recognize that neither of these measures allows for a perfectly fair comparison (*e.g.*, MRT is hardware-dependent and the number of parameters in a model does not correlate directly with its efficiency), so these measurements will only be grouped into coarse-grained categories. Reporting these values is optional, and good-faith approximations are permitted.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-------
+
+## Carbon-Neutrality
+
+Our aim for NeuCLIR is to be a carbon-neutral track. Therefore, we strongly encourage all participants to track carbon emissions associated with their submission, and, if they are able to, buy carbon offsets to minimize the impact of their submissions. For details, please visit [this page](/carbon-tracking.html). Participants will be asked on submission whether they tracked their carbon emissions and whether they offset their impact. However, this will not affect the evaluation of individual runs; the information will be anonymized and will only be reported publicly in aggregate (*e.g.*, “*85% of teams tracked their carbon*”).
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-------
+
+## Registration
+
+- Sign up with NIST, using the link at the bottom of the [Call for Participation](https://trec.nist.gov/pubs/call2022.html).  That’s when you choose a team name.  If you don’t do this, your team name won’t be in the submission system, and you won’t be able to submit runs.  This also gets you one email address on the NIST mailing list, which is where all the NIST coordination information will be sent.
+- [Sign up](https://groups.google.com/g/neuclir-participants) for our track's Google group.  This is where we discuss things like the track guidelines.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
 -------
 
 ## Timeline
 
-While the exact timeline is **not finalized** yet, here's an **approximate** schedule:
 
 - <div id="past"><i>November 2021</i>: NeuCLIR track is first discussed at TREC 2021; feedback from potential participants is welcome.</div>
 - <div id="past"><i>December 2021</i>: Release preliminary track guidelines. Complete download, cleaning and formatting of new document collection.</div>
-- *January 2022*: Release of document collection, development data, and a portion of test data. All tools are made available on [NeuCLIR's GitHub](https://github.com/NeuCLIR).
-- *February 2022*: Release new document collection.
+- <div id="past"><i>January 2022</i>: Initial training data (HC4) and Patapsco infrastructure released</div>
+- <div id="past"><i>*March 2022*</i>: Release new document collection.</div>
 - *May 2022*: Topic development complete.
 - *June 2022*: Release test topics and baseline runs for re-ranking.
 - *July 2022*: Submissions due to NIST
 - *October 2022*: Distribute results to participants.
 - *November 2022*: TREC 2022.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+------
+
 
 ## Organizers
 
@@ -75,8 +303,14 @@ While the exact timeline is **not finalized** yet, here's an **approximate** sch
 - [Luca Soldaini](https://soldaini.net), Allen Institute for AI
 - [Eugene Yang](https://www.eugene.zone/), Johns Hopkins University, HLTCOE
 
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+--------
+
 ## Contact
 
 - We encourage all interested researchers to join our [mailing list](https://groups.google.com/g/neuclir-participants) for the latest announcement and news.
 - For any questions, please reach out to the organizers at [neuclir-organizers@googlegroups.com](mailto:neuclir-organizers@googlegroups.com).
 - Follow the hashtag <a href='https://twitter.com/search?q=%23neuclir22&src=typed_query' title='link to Google slides'><i aria-hidden="true" class="fab fa-twitter">#neuclir22</i></a> to connect with other NeuCLIR participants.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>

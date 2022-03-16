@@ -57,6 +57,7 @@ build-iPhoneSimulator/
 
 # macOS files
 .DS_Store
+.vscode/*
 
 # Preview
 _site

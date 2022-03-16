@@ -27,6 +27,34 @@ code {
   font-size: .8em;
 }
 
+.navigate_toc{
+  font-size: 1em;
+  color:#aaa;
+}
+
+.fa-search, .fa-flask .fa-arrow-up {
+  font-size: .7em;
+}
+
+.right-margin {
+  margin-right: .4em;
+}
+
+
+.repo{
+  white-space: nowrap;
+
+}
+
+.ir-datasets{
+  font-family: monospace;
+  font-size: 1.1em;
+  white-space: nowrap;
+}
+
+// ul {
+//   margin-bottom: .1em;
+// }
 
 /* mouse over link */
 a:hover {
