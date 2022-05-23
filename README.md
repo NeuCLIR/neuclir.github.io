@@ -165,7 +165,7 @@ A gzipped version of the collection is available [here](https://livejohnshopkins
 
 - **Multiple languages**
   - *mMARCO*: Translations, using OPUS-MT and Google Translate, of MS MARCO into many languages (but not Persian):
-    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco]((https://ir-datasets.com/master/mmarco.html))
+    - <span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>: [mmarco](https://ir-datasets.com/master/mmarco.html)
     - On HuggingFace: [unicamp-dl/mmarco](https://huggingface.co/datasets/unicamp-dl/mmarco)
   - *neuMARCO*: Translations of MS MARCO via a sockeye translation system
     - Download link [neuMSMARCO.tar.gz](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dlawrie1_jh_edu/EQcICtPaSqFNoCZHtoeZszoB7FC362BvaPvieUSk2j30tA?e=btrSaB)
