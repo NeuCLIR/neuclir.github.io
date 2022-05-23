@@ -4,11 +4,10 @@
     <div id='inner-banner'>
     <h3 id='mailing-list-title'>Announcements</h3>
     <ul id='mailing-list-items'>
-    <li>Track guidelines released! Keep reading this page to learn more.</li>
-    <!-- <li>We are hosting two information sessions for potential partecipants! Join us on <b>Dec 14th at 9am EST</b> (<a href='https://dateful.com/eventlink/1346891686'>convert to your time zone</a>) or <b>9pm EST</b> (<a href='https://dateful.com/eventlink/2344208524'>convert to your time zone</a>). Please email the organizers at <a href='mailto:neuclir-organizers@googlegroups.com'>neuclir-organizers@googlegroups.com</a> to receive a Zoom meeting ID.</li>
-    <div style='margin-bottom: .5em'></div> -->
-    <!-- <li>Check the <a href='#resources'>resources</a> section to access the data collection and retrieval baselines.</li> -->
-    <li>Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
+    <li class='announcement-new'><i>2022-05-23:</i> <b>NeuCLIR1 document collection released! </b> You can <a href='/neuclir1.html'> read more about it here</a> and ask questions on this <a href='https://groups.google.com/g/neuclir-participants/c/Digh8HovAcU'>announcement thread</a>. <b>Topics</b> (queries) will be released in the <b>second half of June</b>.</li>
+    <li class='announcement-old'><i>2022-03-15:</i> Track guidelines released! Keep reading this page to learn more.</li>
+    <li class='announcement-old'><i>2021-12-01:</i> We are hosting two information sessions for potential participants! Join us on Dec 14th at 9am EST  or 9pm EST.</li>
+    <li class='announcement-old'><i>2021-08-15:</i> Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
     </ul>
     </div>
 </div>
@@ -145,6 +144,8 @@ You will be able to score the development topics against  the NeuCLIR1 collectio
 HC4 is available from the [<span class='ir-datasets'><i class="fas fa-search right-margin"></i>ir_datasets</span>](https://github.com/allenai/ir_datasets) package under [hc4](https://ir-datasets.com/master/hc4.html).
 
 ### Evaluation Data
+
+**NEW**: Details about our document collection, NEUCLIR1, are available on [this page](/neuclir1.html).
 
 The document collections will be drawn from the Common Crawl News Collection, spanning a five year time window from August 2016 to July 2021.
 Very short and very long documents were filtered.

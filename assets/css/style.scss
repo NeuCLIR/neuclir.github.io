@@ -23,6 +23,14 @@ a {
   color: #6D8EF7;
 }
 
+/* mouse over link */
+a:hover {
+  color: #CA3B7D;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
 code {
   font-size: .8em;
 }
@@ -46,6 +54,7 @@ code {
 
 }
 
+
 .ir-datasets{
   font-family: monospace;
   font-size: 1.1em;
@@ -56,12 +65,26 @@ code {
 //   margin-bottom: .1em;
 // }
 
-/* mouse over link */
-a:hover {
-  color: #CA3B7D;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: underline;
+
+
+.announcement-old {
+  color: #ad9b7b;
+  font-size: .9em;
+  a {
+      color: #ad9b7b;
+      text-decoration: underline;
+  }
+}
+
+.announcement-new {
+  color: #8c5d05;
+    a {
+        color: #8c5d05;
+        text-decoration: underline;
+      }
+    a:hover {
+      color: #c8730a;
+    }
 }
 
 h1 {
@@ -93,9 +116,14 @@ div#mailing-list-banner {
   margin-bottom: 1em;
 }
 
-#mailing-list-title, #mailing-list-items{
+#mailing-list-items{
       margin-bottom: .4em;
-      color: #AB7003;
+}
+
+#mailing-list-title {
+  font-size: 1.3em;
+  margin-bottom: .8em;
+  color: #8c5d05;
 }
 
 div#past {
