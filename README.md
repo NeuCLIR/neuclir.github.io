@@ -1,14 +1,21 @@
 # 2022 TREC NeuCLIR Track
 
-<div id='mailing-list-banner'>
-    <div id='inner-banner'>
-    <h3 id='mailing-list-title'>Announcements</h3>
-    <ul id='mailing-list-items'>
-    <li class='announcement-new'><i>2022-05-23:</i> <b>NeuCLIR1 document collection released! </b> You can <a href='/neuclir1.html'> read more about it here</a> and ask questions on this <a href='https://groups.google.com/g/neuclir-participants/c/Digh8HovAcU'>announcement thread</a>. <b>Topics</b> (queries) will be released in the <b>second half of June</b>.</li>
-    <li class='announcement-old'><i>2022-03-15:</i> Track guidelines released! Keep reading this page to learn more.</li>
-    <li class='announcement-old'><i>2021-12-01:</i> We are hosting two information sessions for potential participants! Join us on Dec 14th at 9am EST  or 9pm EST.</li>
-    <li class='announcement-old'><i>2021-08-15:</i> Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
+<div class='mailing-list-banner'>
+    <div class='inner-banner'>
+    <h3 class='mailing-list-title'>Announcements</h3>
+    <ul class=''>
+    <li class='mailing-list-announcement-new'><i>2022-05-23:</i> <b>NeuCLIR1 document collection released! </b> You can <a href='/neuclir1.html'> read more about it here</a> and ask questions on <a href='https://groups.google.com/g/neuclir-participants/c/Digh8HovAcU'>this thread</a>. <b>Topics</b> (queries) will be released in the <b>second half of June</b>.</li>
+    <li class='mailing-list-announcement-old'><i>2022-03-15:</i> Track guidelines released! Keep reading this page to learn more.</li>
+    <li class='mailing-list-announcement-old'><i>2021-12-01:</i> We are hosting two information sessions for potential participants! Join us on Dec 14th at 9am EST  or 9pm EST.</li>
+    <li class='mailing-list-announcement-old'><i>2021-08-15:</i> Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
     </ul>
+    </div>
+</div>
+
+
+<div class='register-banner'>
+    <div class='register-banner-items'>
+    <b>Access</b> to 2022 NeurCLIR datasets (documents and queries) require <b>registration to TREC</b>, which is <b>free</b> and can be started from <a href='https://ir.nist.gov/trecsubmit.open/application.html'>this webpage</a>.
     </div>
 </div>
 

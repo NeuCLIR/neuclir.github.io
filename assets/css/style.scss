@@ -61,32 +61,6 @@ code {
   white-space: nowrap;
 }
 
-// ul {
-//   margin-bottom: .1em;
-// }
-
-
-
-.announcement-old {
-  color: #ad9b7b;
-  font-size: .9em;
-  a {
-      color: #ad9b7b;
-      text-decoration: underline;
-  }
-}
-
-.announcement-new {
-  color: #8c5d05;
-    a {
-        color: #8c5d05;
-        text-decoration: underline;
-      }
-    a:hover {
-      color: #c8730a;
-    }
-}
-
 h1 {
     a:hover {
     font-weight: bold;
@@ -103,27 +77,85 @@ body {
   font-size: 110%;
 }
 
-div#mailing-list-banner {
+div.banner {
   border-radius: .5em;
-  color: #AB7003;
-  border: 2px solid #AB7003;
-  background: #FEF7EC;
-  padding: 1em;
+  border: 2px solid;
+  padding: .8em;
+  // padding-top: .5em;
+  padding-bottom: 0em;
   width: 90%;
   // height: 150px
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
-#mailing-list-items{
-      margin-bottom: .4em;
+.banner-items{
+    margin-bottom: .4em;
 }
 
-#mailing-list-title {
+.banner-title {
   font-size: 1.3em;
   margin-bottom: .8em;
+}
+
+
+div .mailing-list-banner {
+  @extend .banner;
+  color: #AB7003;
+  border-color: #AB7003;
+  background: #FEF7EC;
+}
+
+div .mailing-list-title {
+  @extend .banner-title;
   color: #8c5d05;
+}
+
+.mailing-list-announcement-old {
+  @extend .banner-items;
+  color: #ad9b7b;
+  font-size: .9em;
+
+  a {
+    color: #ad9b7b;
+    text-decoration: underline;
+  }
+}
+
+.mailing-list-announcement-new {
+  @extend .banner-items;
+  color: #8c5d05;
+
+  a {
+    color: #8c5d05;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #c8730a;
+  }
+}
+
+
+div .register-banner {
+  @extend .banner;
+  color: #576ebb;
+  border-color: #576ebb;
+  background: #f9faff;
+  .register-banner-items {
+    @extend .banner-items;
+    margin-bottom: .8em;
+    text-align: justify;
+  }
+  a {
+    color: #576ebb;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #4a74ff;
+  }
 }
 
 div#past {
