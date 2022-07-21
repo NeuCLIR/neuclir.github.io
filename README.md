@@ -232,7 +232,7 @@ ir_measures qrels_file run_file \
 
 ## Submission
 
-Runs will be submitted through the NIST submission system at [trec.nist.gov/act_part/act_part.html](https://trec.nist.gov/act_part/act_part.html>). Runs that do not pass validation will be rejected outright.
+Runs will be submitted through the NIST submission system at [trec.nist.gov/act_part/act_part.html](https://trec.nist.gov/act_part/act_part.html). Runs that do not pass validation will be rejected outright.
 Submitted runs will be asked to specify (a) single-stage or multi-stage (i.e., ranking or reranking); (b) neural, statistical, or a combination; and (c) manual or automatic.
 
 ### Automatic Runs
