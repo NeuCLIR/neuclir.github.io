@@ -20,5 +20,5 @@ The track is focused on the application of modern neural computing techniques to
 NeuCLIR was first run in 2022, and will be run again in 2023.
 To navigate to the right year, please use the links below:
 
-- [2022](/2022)
-- [2023](/2023)
+- [**2022**](/2022)
+- [**2023**](/2023)
