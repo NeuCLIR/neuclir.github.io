@@ -4,10 +4,13 @@
     <div class='inner-banner'>
     <h3 class='mailing-list-title'>Announcements</h3>
     <ul class=''>
-    <li class='mailing-list-announcement-new'><i>2023-06-06:</i>
+    <li class='mailing-list-announcement-old'><i>2023-07-30:</i>
+    <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-lingual) is August 14!
+    </li>
+    <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
     <b>📅 Deadline extended!</b> We have extended the submission deadline to <b>July 7</b>. One extra week to prepare your systems!
     </li>
-    <li class='mailing-list-announcement-new'><i>2023-06-06:</i>
+    <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
     <b>💥 Topics for 2023 have been released!</b> Visit <a href='/2023'>this year's shared task page</a> for information on how to download them from the NIST website.
     </li>
     <li class='mailing-list-announcement-old'><i>2023-05-09:</i> <b>✍️ Guidelines for NeuCLIR 2023 have been finalized</b> and are available at <a href='/2023'>this year's shared task page</a>.</li>
