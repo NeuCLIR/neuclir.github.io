@@ -5,7 +5,7 @@
     <h3 class='mailing-list-title'>Announcements</h3>
     <ul class=''>
     <li class='mailing-list-announcement-new'><i>2023-07-30:</i>
-    <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-lingual) is August 14!
+    <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-language) is August 14!
     </li>
     <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
     <b>📅 Deadline extended!</b> We have extended the submission deadline to <b>July 7</b>. One extra week to prepare your systems!
