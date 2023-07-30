@@ -4,7 +4,7 @@
     <div class='inner-banner'>
     <h3 class='mailing-list-title'>Announcements</h3>
     <ul class=''>
-    <li class='mailing-list-announcement-old'><i>2023-07-30:</i>
+    <li class='mailing-list-announcement-new'><i>2023-07-30:</i>
     <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-lingual) is August 14!
     </li>
     <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
