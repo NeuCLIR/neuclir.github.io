@@ -4,7 +4,10 @@
     <div class='inner-banner'>
     <h3 class='mailing-list-title'>Announcements</h3>
     <ul class=''>
-    <li class='mailing-list-announcement-new'><i>2023-07-30:</i>
+    <li class='mailing-list-announcement-new'><i>2023-11-12:</i>
+    <b>The NeuCLIR track will be presented on <i>Nov 15, 2023, 1PM-4PM EST</i> at the TREC Conference!</b> For information on the schedule, check the <a href='/2023#trec-2023-agenda'>2023 event page</a>.
+    </li>
+    <li class='mailing-list-announcement-old'><i>2023-07-30:</i>
     <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-language) is August 14!
     </li>
     <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
@@ -31,5 +34,6 @@ The track is focused on the application of modern neural computing techniques to
 NeuCLIR was first run in 2022, and will be run again in 2023.
 To navigate to the right year, please use the links below:
 
+- [2024: Future Track](/2024)
 - **[2023: Current Track](/2023)**
 - *[2022: Past Track](/2022)*
