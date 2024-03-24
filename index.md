@@ -31,9 +31,9 @@
 NeuCLIR is a cross-language information retrieval track at TREC.
 The track is focused on the application of modern neural computing techniques to cross-language information retrieval.
 
-NeuCLIR was first run in 2022, and will be run again in 2023.
+NeuCLIR ran in 2022 and 2023, and will run again in 2024.
 To navigate to the right year, please use the links below:
 
-- [2024: Future Track](/2024)
-- **[2023: Current Track](/2023)**
+- **[2024: Current Track](/2024)**
+- *[2023: Current Track](/2023)*
 - *[2022: Past Track](/2022)*
