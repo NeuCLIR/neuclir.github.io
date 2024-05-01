@@ -11,7 +11,7 @@ sidebar: 2024_sidebar.html
 </div>
 
 
-*Version 1.0; 26 March 2024*
+*Last Updated: 1 May 2024*
 
 NeuCLIR is back for a third year! This year, we continue the CLIR and MLIR news and technical document retrieval tasks, and we introduce a new Report Generation task.
 Examples of the report generation request and evaluation data can be found in the [Report Generation](#report-generation-pilot-task) section. 
