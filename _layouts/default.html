@@ -39,7 +39,9 @@
         </ul>
         {% endif %}
 
-        {% include {{page.sidebar}} %}
+        {% if page.sidebar %}
+          {% include {{ page.sidebar }} %}
+        {% endif %}
       </header>
       <section>
 
