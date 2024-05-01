@@ -1,42 +1,122 @@
-# NeuCLIR Shared Task
+# 2024 TREC NeuCLIR Track
 
-<div class='mailing-list-banner'>
-    <div class='inner-banner'>
-    <h3 class='mailing-list-title'>Announcements</h3>
-    <ul class=''>
-    <li class='mailing-list-announcement-new'><i>2024-03-24</i>
-    <b><a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">The 2024 Track Guidelines are released.</a></b>
-    </li>
-    <li class='mailing-list-announcement-old'><i>2023-11-12:</i>
-    The NeuCLIR track will be presented on <i>Nov 15, 2023, 1PM-4PM EST</i> at the TREC Conference! For information on the schedule, check the <a href='/2023#trec-2023-agenda'>2023 event page</a>.
-    </li>
-    <li class='mailing-list-announcement-old'><i>2023-07-30:</i>
-    <b>📅 Technical Documents Task Deadline.</b> The deadline for the technical document task (monolingual and cross-language) is August 14!
-    </li>
-    <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
-    <b>📅 Deadline extended!</b> We have extended the submission deadline to <b>July 7</b>. One extra week to prepare your systems!
-    </li>
-    <li class='mailing-list-announcement-old'><i>2023-06-06:</i>
-    <b>💥 Topics for 2023 have been released!</b> Visit <a href='/2023'>this year's shared task page</a> for information on how to download them from the NIST website.
-    </li>
-    <li class='mailing-list-announcement-old'><i>2023-05-09:</i> <b>✍️ Guidelines for NeuCLIR 2023 have been finalized</b> and are available at <a href='/2023'>this year's shared task page</a>.</li>
-    <li class='mailing-list-announcement-old'><i>2023-04-24:</i> The overview paper for 2022 NeuCLIR at TREC has been <a href='https://arxiv.org/abs/2304.12367'>posted on arXiv</a>. Check it out!</li>
-    <li class='mailing-list-announcement-old'><i>2023-02-01:</i> Good news! <b>NeuCLIR 2023 planning has started!</b>.</li>
-    <li class='mailing-list-announcement-old'><i>2022-11-18:</i> <b>Thank you for participating to NeuCLIR 2022.</b> This track is now concluded. If you missed the presentation at TREC 2022, you can check out slides <a href='https://docs.google.com/presentation/d/1wuo7zzxS5qRtZfnzsERK3p3Y5KaYVWwyWE-ClvI7hWs/edit#slide=id.p'>here</a>. To share your feedback with NeuCLIR 2022 organizers, use <a href='https://docs.google.com/forms/d/e/1FAIpQLSfgoGQjiZkmwe6hGPZA1jShoLb12SHaeMn4taUZisFZ8VJqWw/viewform'>this Google Form</a>.</li>
-    <li class='mailing-list-announcement-old'><i>2022-05-23:</i> <b>NeuCLIR1 document collection released! </b> You can <a href='/neuclir1.html'> read more about it here</a> and ask questions on <a href='https://groups.google.com/g/neuclir-participants/c/Digh8HovAcU'>this thread</a>. <b>Topics</b> (queries) will be released in the <b>second half of June</b>.</li>
-    <li class='mailing-list-announcement-old'><i>2022-03-15:</i> Track guidelines released! Keep reading this page to learn more.</li>
-    <li class='mailing-list-announcement-old'><i>2021-12-01:</i> We are hosting two information sessions for potential participants! Join us on Dec 14th at 9am EST  or 9pm EST.</li>
-    <li class='mailing-list-announcement-old'><i>2021-08-15:</i> Join our <a href='https://groups.google.com/g/neuclir-participants'>mailing list</a> to receive the latest announcements about the NeuCLIR track!</li>
-    </ul>
+<div class='register-banner'>
+    <div class='register-banner-items'>
+    <b>Join us</b> by registering for TREC at <a href='https://trec.nist.gov/pubs/call2024.html'>this webpage</a>.
     </div>
 </div>
 
-NeuCLIR is a cross-language information retrieval track at TREC.
-The track is focused on the application of modern neural computing techniques to cross-language information retrieval.
 
-NeuCLIR ran in 2022 and 2023, and will run again in 2024.
-To navigate to the right year, please use the links below:
+*Version 1.0; 26 March 2024*
 
-- **[2024: Current Track](/2024)**
+NeuCLIR is back for a third year! This year, we continue the CLIR and MLIR news and technical document retrieval tasks, and we introduce a new Report Generation task.
+Examples of the report generation request and evaluation data can be found in the [Report Generation](#report-generation-pilot-task) section. 
+
+See full guidelines below:
+ - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
+ - [Report Generation Task](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing)
+
+
+## CLIR and MLIR Tasks
+
+See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full details.
+
+### TL;DR
+
+Participating systems will receive a Chinese, Persian, and/or Russian document collection and a set of English topic descriptions. For each topic, systems will produce a ranked list of document IDs drawn from the collection in the order of predicted relevance to the topic. MLIR entries will produce an integrated ranked list across all three languages. Technical Document entries will rank documents drawn from a set of Chinese technical abstracts. Scoring will include traditional TREC metrics such as nDCG@20.
+
+### Summary
+
+Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluations for more than twenty years. Prior to the application of deep learning, strong statistical approaches were developed that work well across many languages. As with most other language technologies though, neural computing has led to significant performance improvements in information retrieval. Incorporation of neural advances into CLIR is now well underway.
+
+The TREC 2024 NeuCLIR track presents a cross-language information retrieval challenge. NeuCLIR topics are written in English. NeuCLIR has three target language collections in Chinese, Persian, and Russian, and a Chinese technical documents collection. Topics are written in the traditional TREC format: a short title and a sentence-length description. Systems are to return a ranked list of documents for each topic. Results will be pooled, and systems will be evaluated on a range of metrics. New in 2024 is a pilot report generation task, in which systems will receive a report request and must search the document collection from which to automatically write a report. The guidelines for the pilot appear in Pilot Report Generation Task Guidelines.
+
+
+| Task                                | Document Language(s) | Query Language            |
+| ----------------------------------------- | -------------------- | ------------------------- |
+| Single Language News                      | fas                  | eng, fas, other           |
+| Single Language News                      | rus                  | eng, rus, other           |
+| Single Language News                      | zho                  | eng, zho, other           |
+| Multilingual News                         | fas+rus+zho          | eng, fas, rus, zho, other |
+| Single-Language Technical                 | zho                  | eng, zho, other           |
+
+-------
+
+## Report Generation (Pilot Task)
+
+See the [guidelines](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) for full details.
+
+### TL;DR
+Participating systems will receive a Chinese, Persian, or Russian document collection and a request for a report to be written in English. They will produce a textual report that fulfills the request in which each sentence points to up to two documents that support it. Scoring will be based on the percentage of main points the report successfully includes, and the precision of the report sentences in describing those main points.
+
+Examples of [report request](https://neuclir.github.io/assets/data/report-generation-sample.request.zh.jsonl) and [evaluation data](https://neuclir.github.io/assets/data/report-generation-sample.evaluation.zh.jsonl) are available as development data.
+
+### Summary
+
+NeuCLIR 2024 is introducing a new Retrieval Augmented Generation (RAG) task of producing a report in one language based on the retrieval of documents in another language. The goals of the task are to stimulate research in cross-language RAG, to identify the best current approaches to automatic cross-language report-writing, to produce a collection that is useful for evaluating future systems, and to examine what parts of this evaluation might be automated to allow future systems to be scored using the same evaluation data. This year report generation is a pilot task, so participants might expect some details of the task to change slightly over time.
+
+The report generation task is to automatically generate a report based on an English description of the desired report and a document collection in Chinese, Persian, or Russian. Generated reports must be responsive to the statements of the information need. A valid report will cite source documents that contain the information discussed within the report. Citations are one of the key attributes of this task. A report length limit will encourage systems to express information succinctly. The generated report must be written in the language of the report request (English) rather than in the language of the documents. Submitted reports created by report-writing systems will be evaluated by assessors. 
+
+| Task                                | Document Language(s) | Query Language            |
+| ----------------------------------------- | -------------------- | ------------------------- |
+| Report Generation | fas                  | eng                       |
+| Report Generation | rus                  | eng                       |
+| Report Generation | zho                  | eng                       |
+
+
+
+-------
+
+## Important Dates
+
+ - March 2022:      Evaluation document collection released
+ - March 25, 2024:      Track guidelines released
+ - June, 2024:      CLIR/MLIR: Topics released and Report requests released
+ - July, 2024:      Technical Document Topic Release
+ - August 6, 2024:      Submissions due to NIST
+ - October, 2024:   Results distributed to participants
+ - November 2024:   TREC 2024
+
+-------
+
+## Changes from 2023
+
+- The technical documents pilot has been promoted to a full task.
+- Later submission deadline!
+- A pilot of a query-driven report generation task (Generative IR) from the multilingual document set.
+
+-------
+
+## Organizers
+
+In alphabetical order:
+
+- [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/), Johns Hopkins University, HLTCOE
+- [Sean MacAvaney](https://macavaney.us/), University of Glasgow
+- [James Mayfield](https://hltcoe.jhu.edu/researcher/james-mayfield/), Johns Hopkins University, HLTCOE
+- [Paul McNamee](https://pmcnamee.net/), Johns Hopkins University, HLTCOE
+- [Douglas W. Oard](https://ischool.umd.edu/about/directory/douglas-w-oard), University of Maryland
+- [Luca Soldaini](https://soldaini.net), Allen Institute for AI
+- [Eugene Yang](https://www.eugene.zone/), Johns Hopkins University, HLTCOE
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+-------
+
+## Contact
+
+- We encourage all interested researchers to join our [mailing list](https://groups.google.com/g/neuclir-participants) for the latest announcement and news.
+- For any questions, please reach out to the organizers at [neuclir-organizers@googlegroups.com](mailto:neuclir-organizers@googlegroups.com).
+- Follow us on Twitter at <a href='https://twitter.com/neuclir' title='link to '><i aria-hidden="true" class="fab fa-twitter">@neuclir</i></a> to connect with other NeuCLIR participants.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
+
+-------
+
+## Previous Years
+
+NeuCLIR previously ran in 2022 and 2023. You can find the previous versions of the task below:
+
 - *[2023: Past Track](/2023)*
 - *[2022: Past Track](/2022)*
