@@ -105,9 +105,10 @@ In alphabetical order:
 
 ## Contact
 
-- We encourage all interested researchers to join our [mailing list](https://groups.google.com/g/neuclir-participants) for the latest announcement and news.
-- For any questions, please reach out to the organizers at [neuclir-organizers@googlegroups.com](mailto:neuclir-organizers@googlegroups.com).
-- Follow us on Twitter at <a href='https://twitter.com/neuclir' title='link to '><i aria-hidden="true" class="fab fa-twitter">@neuclir</i></a> to connect with other NeuCLIR participants.
+- [Mailing List](https://groups.google.com/g/neuclir-participants) (for the latest announcement and news)
+- [TREC Slack #neuclir-2024 channel](https://trectalk.slack.com/archives/C04RQC3QJKW) (once [registered for TREC](https://trec.nist.gov/pubs/call2024.html))
+- [Twitter @neuclir](https://twitter.com/neuclir)
+- Any questions: [neuclir-organizers@googlegroups.com](mailto:neuclir-organizers@googlegroups.com)
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
@@ -120,3 +121,5 @@ NeuCLIR previously ran in 2022 and 2023. You can find the previous versions of t
 
 - *[2023: Past Track](/2023)*
 - *[2022: Past Track](/2022)*
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
