@@ -15,13 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 186px;" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <h1><a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" style="width: 64px;" /> {{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if page.sidebar %}
           {% include {{ page.sidebar }} %}
