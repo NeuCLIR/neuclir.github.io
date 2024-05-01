@@ -1,3 +1,7 @@
+---
+sidebar: 2024_sidebar.html
+---
+
 # 2024 TREC NeuCLIR Track
 
 <div class='register-banner'>
