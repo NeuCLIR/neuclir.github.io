@@ -123,9 +123,3 @@ NeuCLIR previously ran in 2022 and 2023. You can find the previous versions of t
 - *[2022: Past Track](/2022)*
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
-
-
-<!-- "footer" is actually part of the sidebar -->
-<footer>
-    Test
-</footer>
