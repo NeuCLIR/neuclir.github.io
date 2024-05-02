@@ -186,3 +186,7 @@ div#past {
 footer {
   visibility: hidden;
 }
+
+.step-item.active ~ .step-item {
+  color: rgb(114, 114, 114);
+}

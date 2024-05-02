@@ -124,7 +124,7 @@ The report generation task is to automatically generate a report based on an Eng
     <div class="h4 m-0">March 2022</div>
     <div class="text-secondary">Evaluation document collection released</div>
   </li>
-  <li class="step-item">
+  <li class="step-item active">
     <div class="h4 m-0">March 25, 2024</div>
     <div class="text-secondary">Track guidelines released</div>
   </li>
