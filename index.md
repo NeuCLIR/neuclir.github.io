@@ -11,10 +11,19 @@ sidebar: 2024_sidebar.html
 </div>
 
 
-*Last Updated: 1 May 2024*
+*Last Updated: 2 May 2024*
 
-NeuCLIR is back for a third year! This year, we continue the CLIR and MLIR news and technical document retrieval tasks, and we introduce a new Report Generation task.
-Examples of the report generation request and evaluation data can be found in the [Report Generation](#report-generation-pilot-task) section. 
+The TREC Neural Cross-Language Information Retrieval (NeuCLIR) track is a shared task that studies the impact of neural
+approaches in cross-language information retrieval.
+
+You can participate in the shared task by submitting a retrieval or generation system for evaluation. Once completed,
+the track provides reusable test collections for future investigations.
+
+## 🎉 NeuCLIR is back for a third year!
+
+This year, we continue the Cross-Language (CLIR) and Multi-lingual (MLIR) news and technical document retrieval tasks.
+We we introduce a new Report Generation task. Examples of the report generation request and evaluation data can be found
+in the [Report Generation](#report-generation-pilot-task) section. 
 
 See full guidelines below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
