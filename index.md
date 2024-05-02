@@ -29,7 +29,7 @@ in the [Report Generation](#report-generation-pilot-task) section.  -->
 
 Details on each of the 2024 tasks are provided below:
 
- - [Cross-Langauge Retrieval](#task-cross-langauge-retrieval-clir)
+ - [Cross-Langauge Retrieval](#task-cross-language-retrieval-clir)
  - [Cross-Langauge Technical Document Retrieval](#task-cross-language-technical-document-retrieval)
  - [Multilingual Retrieval](#clir-and-mlir-tasks)
  - [🆕 Report Generation](#clir-and-mlir-tasks)
@@ -42,12 +42,12 @@ Details on each of the 2024 tasks are provided below:
 -------
 
 
-## Task: Cross-Langauge Retrieval (CLIR)
+## Task: Cross-Language Retrieval (CLIR)
 
 See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
 
-In the **Cross-Langauge Retrieval (CLIR) task**, systems receive queries in one langauge (English) and retrieve from
-a corpus of new articles written in another langauge (Chinese, Persian, or Russian).
+In the **Cross-Language Retrieval (CLIR) task**, systems receive queries in one language (English) and retrieve from
+a corpus of new articles written in another language (Chinese, Persian, or Russian).
 
 <!-- TODO: image -->
 
@@ -58,13 +58,13 @@ a corpus of new articles written in another langauge (Chinese, Persian, or Russi
 -------
 
 
-## Task: Cross-Langauge Technical Document Retrieval
+## Task: Cross-Language Technical Document Retrieval
 
 See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
 
-Technical language poses a particular problem for cross-langauge retrieval systems, so the **Cross-Langauge Technical Document** task focuses
-on testing this phenomenon in particular. Systems receive queries in one langauge (English) and retrieve from a corpus of technical abstracts
-written in another langauge (Chinese).
+Technical language poses a particular problem for cross-language retrieval systems, so the **Cross-Language Technical Document** task focuses
+on testing this phenomenon in particular. Systems receive queries in one language (English) and retrieve from a corpus of technical abstracts
+written in another language (Chinese).
 
 <!-- TODO: image -->
 
