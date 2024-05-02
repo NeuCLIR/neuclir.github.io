@@ -122,34 +122,34 @@ The report generation task is to automatically generate a report based on an Eng
 <ul class="steps steps-vertical">
   <li class="step-item">
     <div class="h4 m-0">March 2022</div>
-    <div class="text-secondary">Evaluation document collection released</div>
-    <div class="text-secondary">CLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/fa"><code>neuclir/1/fa</code></a> (Persian)<br><a href="https://ir-datasets.com/neuclir#neuclir/1/ru"><code>neuclir/1/ru</code></a> (Russian)<br><a href="https://ir-datasets.com/neuclir#neuclir/1/zh"><code>neuclir/1/zh</code></a> (Chinese)</div>
+    <div class="h4 m-0">Evaluation document collection released</div>
+    <div class="text-secondary">CLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/fa"><code>neuclir/1/fa</code></a> (Persian)<br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/ru"><code>neuclir/1/ru</code></a> (Russian)<br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/zh"><code>neuclir/1/zh</code></a> (Chinese)</div>
     <div class="text-secondary">MLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/multi"><code>neuclir/1/multi</code></a> (Persian, Russian, and Chinese)</div>
     <div class="text-secondary">Technical: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/csl.html"><code>csl</code></a> (Chinese Technical Abstracts)</div>
   </li>
   <li class="step-item active">
     <div class="h4 m-0">25 March 2024</div>
-    <div class="text-secondary">Track guidelines released</div>
+    <div class="h4 m-0">Track guidelines released</div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">June 2024</div>
-    <div class="text-secondary">CLIR/MLIR Topics and Report Requests to be released</div>
+    <div class="h4 m-0">CLIR/MLIR Topics and Report Requests to be released</div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">July 2024</div>
-    <div class="text-secondary">CLIR Technical Topics to be released</div>
+    <div class="h4 m-0">CLIR Technical Topics to be released</div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">6 August 2024</div>
-    <div class="text-secondary">Submissions due to NIST</div>
+    <div class="h4 m-0">Submissions due to NIST</div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">October 2024</div>
-    <div class="text-secondary">Results distributed to participants</div>
+    <div class="h4 m-0">Results distributed to participants</div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">November 2024</div>
-    <div class="text-secondary">TREC 2024</div>
+    <div class="h4 m-0">TREC 2024</div>
   </li>
 </ul>
 
