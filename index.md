@@ -44,7 +44,7 @@ Details on each of the 2024 tasks are provided below:
 
 ## 🔍 Task: Cross-Language Retrieval (CLIR)
 
-*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+<p style="margin-top: -0.75em"><em>See the <a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">CLIR & MLIR Guidelines</a> for full task details.</em></p>
 
 In the **Cross-Language Retrieval (CLIR) task**, systems receive queries in one language (English) and retrieve from
 a corpus of news articles written in another language (Chinese, Persian, **or** Russian).
@@ -60,7 +60,7 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 
 ## 🔍 Task: Cross-Language Technical Documents
 
-*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+<p style="margin-top: -0.75em"><em>See the <a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">CLIR & MLIR Guidelines</a> for full task details.</em></p>
 
 Technical language poses a particular problem for cross-language retrieval systems, so the **Cross-Language Technical Document** task focuses
 on testing this phenomenon in particular. Systems receive queries in one language (English) and retrieve from a corpus of technical abstracts
@@ -77,7 +77,7 @@ written in another language (Chinese).
 
 ## 🔍 Task: Multilingual Retrieval (MLIR)
 
-*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+<p style="margin-top: -0.75em"><em>See the <a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">CLIR & MLIR Guidelines</a> for full task details.</em></p>
 
 **The Multilingual Retrieval (MLIR)** task provides systems with queries in one language (English) and a corpus of documents written in **multiple**
 languages (Chinese, Persian, **and** Russian). The task is to retrieve and produce a ranked list from all three languages. The queries are written
@@ -94,7 +94,7 @@ in a way that there *should* be relevant documents in more than one language.
 
 ## 🔍 Task: Report Generation
 
-*See the [Report Generation Guidelines](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) for full details.*
+<p style="margin-top: -0.75em"><em>See the <a href="https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing">Report Generation Guidelines</a> for full task details.</em></p>
 
 ### TL;DR
 Participating systems will receive a Chinese, Persian, or Russian document collection and a request for a report to be written in English. They will produce a textual report that fulfills the request in which each sentence points to up to two documents that support it. Scoring will be based on the percentage of main points the report successfully includes, and the precision of the report sentences in describing those main points.
