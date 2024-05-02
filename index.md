@@ -122,14 +122,16 @@ The report generation task is to automatically generate a report based on an Eng
 <ul class="steps steps-vertical">
   <li class="step-item">
     <div class="h4 m-0">March 2022</div>
-    <div class="h4 m-0">Evaluation document collection released</div>
+    <div class="h4 m-0">Document Collections Released</div>
     <div class="text-secondary">CLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/fa"><code>neuclir/1/fa</code></a> (Persian)<br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/ru"><code>neuclir/1/ru</code></a> (Russian)<br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/zh"><code>neuclir/1/zh</code></a> (Chinese)</div>
     <div class="text-secondary">MLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/multi"><code>neuclir/1/multi</code></a> (Persian, Russian, and Chinese)</div>
     <div class="text-secondary">Technical: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/csl.html"><code>csl</code></a> (Chinese Technical Abstracts)</div>
   </li>
   <li class="step-item active">
     <div class="h4 m-0">25 March 2024</div>
-    <div class="h4 m-0">Track guidelines released</div>
+    <div class="h4 m-0">Track Guidelines Released</div>
+    <div class="text-secondary"><a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">CLIR &amp; MLIR Guidelines</a></div>
+    <div class="text-secondary"><a href="https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing">Report Generation Guidelines</a></div>
   </li>
   <li class="step-item">
     <div class="h4 m-0">June 2024</div>
