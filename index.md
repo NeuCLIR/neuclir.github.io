@@ -123,6 +123,9 @@ The report generation task is to automatically generate a report based on an Eng
   <li class="step-item">
     <div class="h4 m-0">March 2022</div>
     <div class="text-secondary">Evaluation document collection released</div>
+    <div class="text-secondary">CLIR: <a href="https://ir-datasets.com/neuclir#neuclir/1/fa"><kbd>neuclir/1/fa</kbd></a> (Persian), <a href="https://ir-datasets.com/neuclir#neuclir/1/ru"><kbd>neuclir/1/ru</kbd></a> (Russian), <a href="https://ir-datasets.com/neuclir#neuclir/1/zh"><kbd>neuclir/1/zh</kbd></a> (Chinese)</div>
+    <div class="text-secondary">MLIR: <a href="https://ir-datasets.com/neuclir#neuclir/1/multi"><kbd>csl</kbd></a> (Persian, Russian, and Chinese)</div>
+    <div class="text-secondary">Technical: <a href="https://ir-datasets.com/csl.html"><kbd>cls</kbd></a> (Chinese Technical Abstracts)</div>
   </li>
   <li class="step-item active">
     <div class="h4 m-0">25 March 2024</div>
