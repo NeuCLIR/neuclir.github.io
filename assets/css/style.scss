@@ -192,5 +192,5 @@ footer {
 }
 
 .step-item.active {
-  var(--tblr-body-font-weight);
+  font-weight: var(--tblr-body-font-weight);
 }
