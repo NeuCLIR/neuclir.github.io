@@ -13,8 +13,8 @@ sidebar: 2024_sidebar.html
 
 *Last Updated: 2 May 2024*
 
-The TREC Neural Cross-Language Information Retrieval (NeuCLIR) track is a shared task that studies the impact of neural
-approaches in cross-language information retrieval.
+The Neural Cross-Language Information Retrieval (NeuCLIR) track is a [TREC](https://trec.nist.gov/) shared task that
+studies the impact of neural approaches in cross-language information retrieval and generation.
 
 You can participate in the shared task by submitting a retrieval or generation system for evaluation. Once completed,
 the track provides reusable test collections for future investigations.
@@ -29,14 +29,46 @@ in the [Report Generation](#report-generation-pilot-task) section.  -->
 
 Details on each of the 2024 tasks are provided below:
 
- - [Cross-Langauge Retrieval](#clir-and-mlir-tasks)
- - [Cross-Langauge Technical Document Retrieval](#clir-and-mlir-tasks)
+ - [Cross-Langauge Retrieval](#task-cross-langauge-retrieval-clir)
+ - [Cross-Langauge Technical Document Retrieval](#task-cross-language-technical-document-retrieval)
  - [Multilingual Retrieval](#clir-and-mlir-tasks)
  - [🆕 Report Generation](#clir-and-mlir-tasks)
 
 <!-- See full guidelines below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
  - [Report Generation Task](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) -->
+
+
+-------
+
+
+## Task: Cross-Langauge Retrieval (CLIR)
+
+See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
+
+In the **Cross-Langauge Retrieval (CLIR) task**, systems receive queries in one langauge (English) and retrieve from
+a corpus of new articles written in another langauge (Chinese, Persian, or Russian).
+
+<!-- TODO: image -->
+
+<!-- TODO: data -->
+
+
+
+-------
+
+
+## Task: Cross-Langauge Technical Document Retrieval
+
+See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
+
+Technical language poses a particular problem for cross-langauge retrieval systems, so the **Cross-Langauge Technical Document** task focuses
+on testing this phenomenon in particular. Systems receive queries in one langauge (English) and retrieve from a corpus of technical abstracts
+written in another langauge (Chinese).
+
+<!-- TODO: image -->
+
+<!-- TODO: data -->
 
 
 ## CLIR and MLIR Tasks
