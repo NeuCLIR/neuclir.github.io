@@ -31,7 +31,7 @@ Details on each of the 2024 tasks are provided below:
 
  - [Cross-Langauge Retrieval](#task-cross-language-retrieval-clir)
  - [Cross-Langauge Technical Document Retrieval](#task-cross-language-technical-document-retrieval)
- - [Multilingual Retrieval](#clir-and-mlir-tasks)
+ - [Multilingual Retrieval](#task-multilingual-retrieval-mlir)
  - [🆕 Report Generation](#clir-and-mlir-tasks)
 
 <!-- See full guidelines below:
@@ -44,10 +44,10 @@ Details on each of the 2024 tasks are provided below:
 
 ## Task: Cross-Language Retrieval (CLIR)
 
-See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
+*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
 In the **Cross-Language Retrieval (CLIR) task**, systems receive queries in one language (English) and retrieve from
-a corpus of new articles written in another language (Chinese, Persian, or Russian).
+a corpus of news articles written in another language (Chinese, Persian, or Russian).
 
 <!-- TODO: image -->
 
@@ -60,7 +60,7 @@ a corpus of new articles written in another language (Chinese, Persian, or Russi
 
 ## Task: Cross-Language Technical Document Retrieval
 
-See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.
+*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
 Technical language poses a particular problem for cross-language retrieval systems, so the **Cross-Language Technical Document** task focuses
 on testing this phenomenon in particular. Systems receive queries in one language (English) and retrieve from a corpus of technical abstracts
@@ -69,6 +69,27 @@ written in another language (Chinese).
 <!-- TODO: image -->
 
 <!-- TODO: data -->
+
+
+
+-------
+
+
+## Task: Multilingual Retrieval (MLIR)
+
+*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+
+**The Multilingual Retrieval (MLIR)** task provides systems with queries in one language (English) and a corpus of documents written in **multiple**
+languages (Chinese, Persian, **and** Russian). The task is to retrieve and produce a ranked list from all three languages. The queries are written
+in a way that there *should* be relevant documents in more than one language.
+
+<!-- TODO: image -->
+
+<!-- TODO: data -->
+
+
+
+-------
 
 
 ## CLIR and MLIR Tasks
