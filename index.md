@@ -22,12 +22,21 @@ the track provides reusable test collections for future investigations.
 ## 🎉 NeuCLIR is back for a third year!
 
 This year, we continue the Cross-Language (CLIR) and Multi-lingual (MLIR) news and technical document retrieval tasks.
-We we introduce a new Report Generation task. Examples of the report generation request and evaluation data can be found
-in the [Report Generation](#report-generation-pilot-task) section. 
+We also introduce a new Report Generation task.
 
-See full guidelines below:
+<!-- Examples of the report generation request and evaluation data can be found
+in the [Report Generation](#report-generation-pilot-task) section.  -->
+
+Details on each of the 2024 tasks are provided below:
+
+ - [Cross-Langauge Retrieval](#clir-and-mlir-tasks)
+ - [Cross-Langauge Technical Document Retrieval](#clir-and-mlir-tasks)
+ - [Multilingual Retrieval](#clir-and-mlir-tasks)
+ - [🆕 Report Generation](#clir-and-mlir-tasks)
+
+<!-- See full guidelines below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
- - [Report Generation Task](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing)
+ - [Report Generation Task](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) -->
 
 
 ## CLIR and MLIR Tasks
