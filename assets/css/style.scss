@@ -190,3 +190,7 @@ footer {
 .step-item.active ~ .step-item {
   color: rgb(114, 114, 114);
 }
+
+.step-item.active {
+  var(--tblr-body-font-weight);
+}

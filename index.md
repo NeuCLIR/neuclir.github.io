@@ -125,23 +125,23 @@ The report generation task is to automatically generate a report based on an Eng
     <div class="text-secondary">Evaluation document collection released</div>
   </li>
   <li class="step-item active">
-    <div class="h4 m-0">March 25, 2024</div>
+    <div class="h4 m-0">25 March 2024</div>
     <div class="text-secondary">Track guidelines released</div>
   </li>
   <li class="step-item">
-    <div class="h4 m-0">June, 2024</div>
+    <div class="h4 m-0">June 2024</div>
     <div class="text-secondary">CLIR/MLIR Topics and Report Requests to be released</div>
   </li>
   <li class="step-item">
-    <div class="h4 m-0">July, 2024</div>
+    <div class="h4 m-0">July 2024</div>
     <div class="text-secondary">CLIR Technical Topics to be released</div>
   </li>
   <li class="step-item">
-    <div class="h4 m-0">August 6, 2024</div>
+    <div class="h4 m-0">6 August 2024</div>
     <div class="text-secondary">Submissions due to NIST</div>
   </li>
   <li class="step-item">
-    <div class="h4 m-0">October, 2024</div>
+    <div class="h4 m-0">October 2024</div>
     <div class="text-secondary">Results distributed to participants</div>
   </li>
   <li class="step-item">
