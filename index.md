@@ -119,7 +119,7 @@ The report generation task is to automatically generate a report based on an Eng
 
 ## Important Dates
 
-<ul class="steps steps-vertical">
+<ul class="steps steps-vertical mb-4">
   <li class="step-item">
     <div class="h3 m-0">March 2022</div>
     <div class="h3 m-0">Document Collections Released</div>
