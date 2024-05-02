@@ -30,7 +30,7 @@ in the [Report Generation](#report-generation-pilot-task) section.  -->
 Details on each of the 2024 tasks are provided below:
 
  - [Cross-Langauge Retrieval](#-task-cross-language-retrieval-clir)
- - [Cross-Langauge Technical Document Retrieval](#-task-cross-language-technical-document-retrieval)
+ - [Cross-Langauge Technical Documents](#-task-cross-language-technical-documents)
  - [Multilingual Retrieval](#-task-multilingual-retrieval-mlir)
  - [🆕 Report Generation](#-task-report-generation)
 
@@ -58,7 +58,7 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 -------
 
 
-## 🔍 Task: Cross-Language Technical Document Retrieval
+## 🔍 Task: Cross-Language Technical Documents
 
 *See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
