@@ -42,7 +42,7 @@ Details on each of the 2024 tasks are provided below:
 -------
 
 
-## Task: Cross-Language Retrieval (CLIR)
+## 🔍 Task: Cross-Language Retrieval (CLIR)
 
 *See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
@@ -58,7 +58,7 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 -------
 
 
-## Task: Cross-Language Technical Document Retrieval
+## 🔍 Task: Cross-Language Technical Document Retrieval
 
 *See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
@@ -75,7 +75,7 @@ written in another language (Chinese).
 -------
 
 
-## Task: Multilingual Retrieval (MLIR)
+## 🔍 Task: Multilingual Retrieval (MLIR)
 
 *See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
@@ -92,7 +92,7 @@ in a way that there *should* be relevant documents in more than one language.
 -------
 
 
-## Task: Report Generation
+## 🔍 Task: Report Generation
 
 *See the [Report Generation Guidelines](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) for full details.*
 
