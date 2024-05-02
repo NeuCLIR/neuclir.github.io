@@ -32,7 +32,7 @@ Details on each of the 2024 tasks are provided below:
  - [Cross-Langauge Retrieval](#task-cross-language-retrieval-clir)
  - [Cross-Langauge Technical Document Retrieval](#task-cross-language-technical-document-retrieval)
  - [Multilingual Retrieval](#task-multilingual-retrieval-mlir)
- - [🆕 Report Generation](#clir-and-mlir-tasks)
+ - [🆕 Report Generation](#task-report-generation)
 
 <!-- See full guidelines below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
@@ -44,10 +44,10 @@ Details on each of the 2024 tasks are provided below:
 
 ## Task: Cross-Language Retrieval (CLIR)
 
-*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
 In the **Cross-Language Retrieval (CLIR) task**, systems receive queries in one language (English) and retrieve from
-a corpus of news articles written in another language (Chinese, Persian, or Russian).
+a corpus of news articles written in another language (Chinese, Persian, **or** Russian).
 
 <!-- TODO: image -->
 
@@ -60,7 +60,7 @@ a corpus of news articles written in another language (Chinese, Persian, or Russ
 
 ## Task: Cross-Language Technical Document Retrieval
 
-*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
 Technical language poses a particular problem for cross-language retrieval systems, so the **Cross-Language Technical Document** task focuses
 on testing this phenomenon in particular. Systems receive queries in one language (English) and retrieve from a corpus of technical abstracts
@@ -77,7 +77,7 @@ written in another language (Chinese).
 
 ## Task: Multilingual Retrieval (MLIR)
 
-*See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
+*See the [CLIR & MLIR Guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full task details.*
 
 **The Multilingual Retrieval (MLIR)** task provides systems with queries in one language (English) and a corpus of documents written in **multiple**
 languages (Chinese, Persian, **and** Russian). The task is to retrieve and produce a ranked list from all three languages. The queries are written
@@ -92,34 +92,9 @@ in a way that there *should* be relevant documents in more than one language.
 -------
 
 
-## CLIR and MLIR Tasks
+## Task: Report Generation
 
-See the [guidelines](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing) for full details.
-
-### TL;DR
-
-Participating systems will receive a Chinese, Persian, and/or Russian document collection and a set of English topic descriptions. For each topic, systems will produce a ranked list of document IDs drawn from the collection in the order of predicted relevance to the topic. MLIR entries will produce an integrated ranked list across all three languages. Technical Document entries will rank documents drawn from a set of Chinese technical abstracts. Scoring will include traditional TREC metrics such as nDCG@20.
-
-### Summary
-
-Cross-language Information Retrieval (CLIR) has been studied at TREC and subsequent evaluations for more than twenty years. Prior to the application of deep learning, strong statistical approaches were developed that work well across many languages. As with most other language technologies though, neural computing has led to significant performance improvements in information retrieval. Incorporation of neural advances into CLIR is now well underway.
-
-The TREC 2024 NeuCLIR track presents a cross-language information retrieval challenge. NeuCLIR topics are written in English. NeuCLIR has three target language collections in Chinese, Persian, and Russian, and a Chinese technical documents collection. Topics are written in the traditional TREC format: a short title and a sentence-length description. Systems are to return a ranked list of documents for each topic. Results will be pooled, and systems will be evaluated on a range of metrics. New in 2024 is a pilot report generation task, in which systems will receive a report request and must search the document collection from which to automatically write a report. The guidelines for the pilot appear in Pilot Report Generation Task Guidelines.
-
-
-| Task                                | Document Language(s) | Query Language            |
-| ----------------------------------------- | -------------------- | ------------------------- |
-| Single Language News                      | fas                  | eng, fas, other           |
-| Single Language News                      | rus                  | eng, rus, other           |
-| Single Language News                      | zho                  | eng, zho, other           |
-| Multilingual News                         | fas+rus+zho          | eng, fas, rus, zho, other |
-| Single-Language Technical                 | zho                  | eng, zho, other           |
-
--------
-
-## Report Generation (Pilot Task)
-
-See the [guidelines](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) for full details.
+*See the [Report Generation Guidelines](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) for full details.*
 
 ### TL;DR
 Participating systems will receive a Chinese, Persian, or Russian document collection and a request for a report to be written in English. They will produce a textual report that fulfills the request in which each sentence points to up to two documents that support it. Scoring will be based on the percentage of main points the report successfully includes, and the precision of the report sentences in describing those main points.
@@ -144,13 +119,36 @@ The report generation task is to automatically generate a report based on an Eng
 
 ## Important Dates
 
- - March 2022:      Evaluation document collection released
- - March 25, 2024:      Track guidelines released
- - June, 2024:      CLIR/MLIR: Topics released and Report requests released
- - July, 2024:      Technical Document Topic Release
- - August 6, 2024:      Submissions due to NIST
- - October, 2024:   Results distributed to participants
- - November 2024:   TREC 2024
+<ul class="steps steps-vertical">
+  <li class="step-item">
+    <div class="h4 m-0">March 2022</div>
+    <div class="text-secondary">Evaluation document collection released</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">March 25, 2024</div>
+    <div class="text-secondary">Track guidelines released</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">June, 2024</div>
+    <div class="text-secondary">CLIR/MLIR Topics and Report Requests to be released</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">July, 2024</div>
+    <div class="text-secondary">CLIR Technical Topics to be released</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">August 6, 2024</div>
+    <div class="text-secondary">Submissions due to NIST</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">October, 2024</div>
+    <div class="text-secondary">Results distributed to participants</div>
+  </li>
+  <li class="step-item">
+    <div class="h4 m-0">November 2024</div>
+    <div class="text-secondary">TREC 2024</div>
+  </li>
+</ul>
 
 -------
 
