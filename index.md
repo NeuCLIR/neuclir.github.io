@@ -32,7 +32,7 @@ Details on each of the 2024 tasks are provided below:
  - [Cross-Langauge Retrieval](#-task-cross-language-retrieval-clir)
  - [Cross-Langauge Technical Documents](#-task-cross-language-technical-documents)
  - [Multilingual Retrieval](#-task-multilingual-retrieval-mlir)
- - [🆕 Report Generation](#-task-report-generation)
+ - [🆕 Cross-Language Report Generation](#-task-cross-language-report-generation)
 
 <!-- See full guidelines below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
@@ -52,7 +52,8 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 <!-- TODO: image -->
 
 <!-- TODO: data -->
-
+- Access collection, queries, and qrels from [`ir_datasets`](https://ir-datasets.com/neuclir.html#neuclir/1) or [official TREC website](https://trec.nist.gov/data/neuclir.html). 
+-  Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fab fa-archive">2022</i></a> and  <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fab fa-archive">2023</i></a> are available on arXiv. 
 
 
 -------
@@ -92,28 +93,15 @@ in a way that there *should* be relevant documents in more than one language.
 -------
 
 
-## 🔍 Task: Report Generation
+## 🔍 Task: Cross-Language Report Generation
 
 <p style="margin-top: -0.75em"><em>See the <a href="https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing">Report Generation Guidelines</a> for full task details.</em></p>
 
-### TL;DR
-Participating systems will receive a Chinese, Persian, or Russian document collection and a request for a report to be written in English. They will produce a textual report that fulfills the request in which each sentence points to up to two documents that support it. Scoring will be based on the percentage of main points the report successfully includes, and the precision of the report sentences in describing those main points.
+**The Cross Language Report Generation** task asks the system to generate an English report with citations to documents in **one of the news collection used in the CLIR task** (see guideline for destils on length and citation requirements) 
+based on a report request ([example report request](https://neuclir.github.io/assets/data/report-generation-sample.request.zh.jsonl)). 
+The reports will be evaluated based on the information included in the text and the appropriateness of the citations ([example evalaution data](https://neuclir.github.io/assets/data/report-generation-sample.evaluation.zh.jsonl)). 
 
-Examples of [report request](https://neuclir.github.io/assets/data/report-generation-sample.request.zh.jsonl) and [evaluation data](https://neuclir.github.io/assets/data/report-generation-sample.evaluation.zh.jsonl) are available as development data.
-
-### Summary
-
-NeuCLIR 2024 is introducing a new Retrieval Augmented Generation (RAG) task of producing a report in one language based on the retrieval of documents in another language. The goals of the task are to stimulate research in cross-language RAG, to identify the best current approaches to automatic cross-language report-writing, to produce a collection that is useful for evaluating future systems, and to examine what parts of this evaluation might be automated to allow future systems to be scored using the same evaluation data. This year report generation is a pilot task, so participants might expect some details of the task to change slightly over time.
-
-The report generation task is to automatically generate a report based on an English description of the desired report and a document collection in Chinese, Persian, or Russian. Generated reports must be responsive to the statements of the information need. A valid report will cite source documents that contain the information discussed within the report. Citations are one of the key attributes of this task. A report length limit will encourage systems to express information succinctly. The generated report must be written in the language of the report request (English) rather than in the language of the documents. Submitted reports created by report-writing systems will be evaluated by assessors. 
-
-| Task                                | Document Language(s) | Query Language            |
-| ----------------------------------------- | -------------------- | ------------------------- |
-| Report Generation | fas                  | eng                       |
-| Report Generation | rus                  | eng                       |
-| Report Generation | zho                  | eng                       |
-
-
+<!-- TODO: image -->
 
 -------
 
