@@ -38,6 +38,7 @@ Details on each of the 2024 tasks are provided below:
  - [CLIR and MLIR Tasks](https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing)
  - [Report Generation Task](https://docs.google.com/document/d/1Q4SSwM69kfK2GtYf0N__4eQcsEK0giMky2XG-dPoCYM/edit?usp=sharing) -->
 
+Skip to [Important Dates](#important-dates).
 
 -------
 
@@ -54,11 +55,11 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 <!-- TODO: data -->
 
 <div class="alert alert-success" role="alert">
-  <h4 class="alert-title">To get started...</h4>
   <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir.html">official TREC website</a>. </div>
-  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">2022</i></a> and  <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> are available on arXiv. </div>
+  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> are available on arXiv. </div>
 </div>
 
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
 -------
 
@@ -73,9 +74,12 @@ written in another language (Chinese).
 
 <!-- TODO: image -->
 
-<!-- TODO: data -->
+<div class="alert alert-success" role="alert">
+  <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/csl.html">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">official TREC website</a>. </div>
+  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> is available on arXiv. </div>
+</div>
 
-
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
 -------
 
@@ -90,11 +94,14 @@ in a way that there *should* be relevant documents in more than one language.
 
 <!-- TODO: image -->
 
-<!-- TODO: data -->
+<div class="alert alert-success" role="alert">
+  <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/multi">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">official TREC website</a>. </div>
+  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> is available on arXiv. </div>
+</div>
 
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
-
--------
+<div class="hr-text">Pilot Task</div>
 
 
 ## 🔍 Task: Cross-Language Report Generation
@@ -106,6 +113,8 @@ based on a report request ([example report request](https://neuclir.github.io/as
 The reports will be evaluated based on the information included in the text and the appropriateness of the citations ([example evalaution data](https://neuclir.github.io/assets/data/report-generation-sample.evaluation.zh.jsonl)). 
 
 <!-- TODO: image -->
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
 -------
 
@@ -147,6 +156,8 @@ The reports will be evaluated based on the information included in the text and 
   </li>
 </ul>
 
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
+
 -------
 
 ## Changes from 2023
@@ -154,6 +165,8 @@ The reports will be evaluated based on the information included in the text and 
 - The technical documents pilot has been promoted to a full task.
 - Later submission deadline!
 - A pilot of a query-driven report generation task (Generative IR) from the multilingual document set.
+
+<span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
 -------
 
