@@ -55,8 +55,8 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 <!-- TODO: data -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir.html">official TREC website</a>. </div>
-  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> are available on arXiv. </div>
+  <div class="text-secondary">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir.html">TREC website</a>. </div>
+  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
@@ -75,8 +75,8 @@ written in another language (Chinese).
 <!-- TODO: image -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/csl.html">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">official TREC website</a>. </div>
-  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> is available on arXiv. </div>
+  <div class="text-secondary small">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/csl.html">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">TREC website</a>. </div>
+  <div class="text-secondary small">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
@@ -95,8 +95,8 @@ in a way that there *should* be relevant documents in more than one language.
 <!-- TODO: image -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary">Access collection, queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/multi">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">official TREC website</a>. </div>
-  <div class="text-secondary">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">2023</i></a> is available on arXiv. </div>
+  <div class="text-secondary small">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/multi">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2023.html">official TREC website</a>. </div>
+  <div class="text-secondary small">Overview paper for <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
@@ -115,8 +115,8 @@ The reports will be evaluated based on the information included in the text and 
 <!-- TODO: image -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary">Access the document collection from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2022.html">official TREC website</a>. </div>
-  <div class="text-secondary">Our <a href='https://arxiv.org/abs/2405.00982' title='link to '><i aria-hidden="true" class="fas fa-archive">SIGIR perspective paper</i></a> on evaluating automatically-generated reports2023 is available on arXiv. </div>
+  <div class="text-secondary small">Access document collection from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2022.html">TREC website</a>. </div>
+  <div class="text-secondary">Our <a href='https://arxiv.org/abs/2405.00982' title='link to '><i aria-hidden="true" class="fas fa-archive">SIGIR perspective paper</i></a> on evaluating generated reports is available on arXiv. </div>
 </div>
 
 
