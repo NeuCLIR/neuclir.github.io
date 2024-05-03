@@ -55,7 +55,7 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 <!-- TODO: data -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary small">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir.html">TREC website</a>. </div>
+  <div class="text-secondary small">Access collection, past queries, and qrels on <a href="https://ir-datasets.com/neuclir.html#neuclir/1"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir.html">TREC website</a>. </div>
   <div class="text-secondary small">Learn more from the overview papers of <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
@@ -75,7 +75,7 @@ written in another language (Chinese).
 <!-- TODO: image -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary small">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/csl.html"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir2023.html">TREC website</a>. </div>
+  <div class="text-secondary small">Access collection, past queries, and qrels on <a href="https://ir-datasets.com/csl.html"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir2023.html">TREC website</a>. </div>
   <div class="text-secondary small">Learn more from the overview paper of <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
@@ -95,7 +95,7 @@ in a way that there *should* be relevant documents in more than one language.
 <!-- TODO: image -->
 
 <div class="alert alert-success" role="alert">
-  <div class="text-secondary small">Access collection, past queries, and qrels from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/multi"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir2023.html">TREC website</a>. </div>
+  <div class="text-secondary small">Access collection, past queries, and qrels on <a href="https://ir-datasets.com/neuclir.html#neuclir/1/multi"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir2023.html">TREC website</a>. </div>
   <div class="text-secondary small">Learn more from overview paper of <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
