@@ -52,8 +52,9 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 <!-- TODO: image -->
 
 <!-- TODO: data -->
-- Access collection, queries, and qrels from [`ir_datasets`](https://ir-datasets.com/neuclir.html#neuclir/1) or [official TREC website](https://trec.nist.gov/data/neuclir.html). 
--  Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fab fa-archive">2022</i></a> and  <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fab fa-archive">2023</i></a> are available on arXiv. 
+[!NOTE]
+> - Access collection, queries, and qrels from [`ir_datasets`](https://ir-datasets.com/neuclir.html#neuclir/1) or [official TREC website](https://trec.nist.gov/data/neuclir.html). 
+> -  Overview paper for <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fab fa-box-archive">2022</i></a> and  <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fab fa-box-archive">2023</i></a> are available on arXiv. 
 
 
 -------
