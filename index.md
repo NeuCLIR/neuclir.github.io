@@ -11,7 +11,7 @@ sidebar: 2024_sidebar.html
 </div>
 
 
-*Last Updated: 2 May 2024*
+*Last Updated: 3 May 2024*
 
 The Neural Cross-Language Information Retrieval (NeuCLIR) track is a [TREC](https://trec.nist.gov/) shared task that
 studies the impact of neural approaches in cross-language information retrieval and generation.
@@ -40,7 +40,7 @@ Details on each of the 2024 tasks are provided below:
 
 Skip to [Important Dates](#important-dates).
 
--------
+<div class="hr-text">Official Tasks</div>
 
 
 ## 🔍 Task: Cross-Language Retrieval (CLIR)
@@ -114,9 +114,15 @@ The reports will be evaluated based on the information included in the text and 
 
 <!-- TODO: image -->
 
+<div class="alert alert-success" role="alert">
+  <div class="text-secondary">Access the document collection from <a href="https://ir-datasets.com/neuclir.html#neuclir/1/">ir_datasets</a> or <a href="https://trec.nist.gov/data/neuclir2022.html">official TREC website</a>. </div>
+  <div class="text-secondary">Our <a href='https://arxiv.org/abs/2405.00982' title='link to '><i aria-hidden="true" class="fas fa-archive">SIGIR perspective paper</i></a> on evaluating automatically-generated reports2023 is available on arXiv. </div>
+</div>
+
+
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
 
--------
+<div class="hr-text">Track Information</div>
 
 ## Important Dates
 
