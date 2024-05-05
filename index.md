@@ -56,7 +56,7 @@ a corpus of news articles written in another language (Chinese, Persian, **or** 
 
 <div class="alert alert-success" role="alert">
   <div class="text-secondary small">Access collection, past queries, and qrels on <a href="https://ir-datasets.com/neuclir.html#neuclir/1"><code>ir_datasets</code></a> or <a href="https://trec.nist.gov/data/neuclir.html">TREC website</a>. </div>
-  <div class="text-secondary small">Learn more from the overview papers of <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
+  <div class="text-secondary small">Learn more from overview papers of <a href='https://arxiv.org/abs/2304.12367' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2022</i></a> and <a href='https://arxiv.org/abs/2404.08071' title='link to '><i aria-hidden="true" class="fas fa-archive">NeuCLIR 2023</i></a>. </div>
 </div>
 
 <span class='navigate_toc'><i class="fas fa-arrow-up right-margin"></i><a href='#' class='navigate_toc'>Back to top</a></span>
