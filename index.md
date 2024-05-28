@@ -6,6 +6,9 @@ sidebar: 2024_sidebar.html
 
 <div class='register-banner'>
     <div class='register-banner-items'>
+    <b>New submission date</b> is July 28!
+    </div>
+    <div class='register-banner-items'>
     <b>Join us</b> by registering for TREC at <a href='https://trec.nist.gov/pubs/call2024.html'>this webpage</a>.
     </div>
 </div>
@@ -149,7 +152,7 @@ The reports will be evaluated based on the information included in the text and 
     <div class="h3 m-0">CLIR Technical Topics to be released</div>
   </li>
   <li class="step-item">
-    <div class="h3 m-0">6 August 2024</div>
+    <div class="h3 m-0">28 July 2024</div>
     <div class="h3 m-0">Submissions due to NIST</div>
   </li>
   <li class="step-item">
