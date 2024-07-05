@@ -6,6 +6,9 @@ sidebar: 2024_sidebar.html
 
 <div class='register-banner'>
     <div class='register-banner-items'>
+    <b>All 2024 topics and report requests are released and can be found on <a href='https://trec.nist.gov/act_part/tracks2024.html'>TREC's active participant portal</a>. Submit your runs at the new <a href='https://ir.nist.gov/evalbase/accounts/login/'>Evalbase</a>.</b>
+    </div>
+    <div class='register-banner-items'>
     <b>New submission date</b> is July 28!
     </div>
     <div class='register-banner-items'>
@@ -137,7 +140,7 @@ The reports will be evaluated based on the information included in the text and 
     <div class="text-secondary small">MLIR: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/neuclir#neuclir/1/multi"><code>neuclir/1/multi</code></a> (Persian, Russian, and Chinese)</div>
     <div class="text-secondary small">Technical: <br><a style="margin-left: 16px;" href="https://ir-datasets.com/csl.html"><code>csl</code></a> (Chinese Technical Abstracts)</div>
   </li>
-  <li class="step-item active">
+  <li class="step-item">
     <div class="h3 m-0">25 March 2024</div>
     <div class="h3 m-0">Track Guidelines Released</div>
     <div class="text-secondary small"><a href="https://docs.google.com/document/d/1Vy9538kPvyE3mfIhd-stqULbcRCnS_oe5rP6ykqKA-0/edit?usp=sharing">CLIR &amp; MLIR Guidelines</a></div>
@@ -147,7 +150,7 @@ The reports will be evaluated based on the information included in the text and 
     <div class="h3 m-0">June 2024</div>
     <div class="h3 m-0">CLIR/MLIR Topics and Report Requests to be released</div>
   </li>
-  <li class="step-item">
+  <li class="step-item active">
     <div class="h3 m-0">July 2024</div>
     <div class="h3 m-0">CLIR Technical Topics to be released</div>
   </li>
