@@ -9,7 +9,7 @@ sidebar: 2024_sidebar.html
     <b>All 2024 topics and report requests are released and can be found on <a href='https://trec.nist.gov/act_part/tracks2024.html'>TREC's active participant portal</a>. Submit your runs at the new <a href='https://ir.nist.gov/evalbase/accounts/login/'>Evalbase</a>.</b>
     </div>
     <div class='register-banner-items'>
-    <b>New submission date</b> is August 6 for Technical Document tasks and August 13 for CLIR/MLIR and Report Generation.!
+    <b>New submission date</b> is <u>August 6</u> for Technical Document tasks and <u>August 13</u> for CLIR/MLIR and Report Generation.!
     </div>
     <div class='register-banner-items'>
     <b>Join us</b> by registering for TREC at <a href='https://trec.nist.gov/pubs/call2024.html'>this webpage</a>.
