@@ -9,7 +9,7 @@ sidebar: 2024_sidebar.html
     <b>All 2024 topics and report requests are released and can be found on <a href='https://trec.nist.gov/act_part/tracks2024.html'>TREC's active participant portal</a>. Submit your runs at the new <a href='https://ir.nist.gov/evalbase/accounts/login/'>Evalbase</a>.</b>
     </div>
     <div class='register-banner-items'>
-    <b>New submission date</b> is July 28!
+    <b>New submission date</b> is August 6 for Technical Document tasks and August 13 for CLIR/MLIR and Report Generation.!
     </div>
     <div class='register-banner-items'>
     <b>Join us</b> by registering for TREC at <a href='https://trec.nist.gov/pubs/call2024.html'>this webpage</a>.
@@ -17,7 +17,7 @@ sidebar: 2024_sidebar.html
 </div>
 
 
-*Last Updated: 3 May 2024*
+*Last Updated: 17 July 2024*
 
 The Neural Cross-Language Information Retrieval (NeuCLIR) track is a [TREC](https://trec.nist.gov/) shared task that
 studies the impact of neural approaches in cross-language information retrieval and generation.
