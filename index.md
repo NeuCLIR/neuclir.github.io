@@ -148,11 +148,11 @@ The reports will be evaluated based on the information included in the text and 
   </li>
   <li class="step-item">
     <div class="h3 m-0">June 2024</div>
-    <div class="h3 m-0">CLIR/MLIR Topics and Report Requests to be released</div>
+    <div class="h3 m-0">CLIR/MLIR Topics and Report Requests released on <a href="https://trec.nist.gov/act_part/tracks/neuclir/neuclir24.topics.0614.jsonl">NIST website</a></div>
   </li>
   <li class="step-item active">
     <div class="h3 m-0">July 2024</div>
-    <div class="h3 m-0">CLIR Technical Topics to be released</div>
+    <div class="h3 m-0">CLIR Technical Topics released on <a href="https://trec.nist.gov/act_part/tracks/neuclir/technical_topics.0703.jsonl">NIST website</a></div>
   </li>
   <li class="step-item">
     <div class="h3 m-0">6 August 2024</div>
